@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="title description">
+   <title id="title">Human Tetris</title><desc id="description">Match the shape. Move your whole body.</desc>
+   <rect width="1000" height="1000" fill="#0b111b"/>
+   <rect x="0" y="0" width="1000" height="7" fill="#b7a0ff"/>
+   <text x="48" y="64" fill="#a8b4c7" font-family="Arial,sans-serif" font-size="17" letter-spacing="3">YOUR BODY / YOUR CONTROLLER</text>
+   <rect x="778" y="33" width="174" height="47" rx="8" fill="#182333" stroke="#b7a0ff" stroke-opacity=".45"/>
+   <text x="865" y="64" fill="#b7a0ff" font-family="Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle">15 POSES</text>
+   <svg x="0" y="122" width="1000" height="620" viewBox="0 0 1000 620"><defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#1a2032"/><stop offset="1" stop-color="#0d1521"/></linearGradient><radialGradient id="field"><stop stop-color="#294f47"/><stop offset="1" stop-color="#0c2629"/></radialGradient><pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#34435b" stroke-opacity=".28"/></pattern><pattern id="net" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b9d9da" stroke-opacity=".16"/></pattern><pattern id="blocks" width="64" height="64" patternUnits="userSpaceOnUse"><rect x="5" y="5" width="54" height="54" rx="5" fill="#b7a0ff" fill-opacity=".09" stroke="#b7a0ff" stroke-opacity=".25"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs><defs><linearGradient id="avatar-fabric"><stop stop-color="#35394f"/><stop offset=".4" stop-color="#8072a8"/><stop offset=".72" stop-color="#574b7c"/><stop offset="1" stop-color="#2e3048"/></linearGradient><radialGradient id="avatar-face" cx=".35" cy=".3"><stop stop-color="#e3d5da"/><stop offset=".65" stop-color="#b7a0b3"/><stop offset="1" stop-color="#7c6f92"/></radialGradient></defs><rect width="1000" height="620" fill="url(#sky)"/><rect width="1000" height="620" fill="url(#grid)"/><path d="M0 620 260 300H740L1000 620M0 510H1000M0 440H1000M0 380H1000" stroke="#8870b0" stroke-opacity=".2" fill="none"/>
+  <defs><mask id="wall-hole"><rect width="1000" height="620" fill="white"/><g transform="translate(100 118) scale(0.8)"><g data-avatar="cutout" opacity="1">
+    <path d="M450 365.79999999999995L360 465" fill="none" stroke="#000" stroke-width="50" stroke-linecap="round"/>
+      <path d="M450 365.79999999999995L360 465" fill="none" stroke="#000" stroke-width="38" stroke-linecap="round"/><path d="M550 365.79999999999995L640 465" fill="none" stroke="#000" stroke-width="50" stroke-linecap="round"/>
+      <path d="M550 365.79999999999995L640 465" fill="none" stroke="#000" stroke-width="38" stroke-linecap="round"/><path d="M360 465L260 576.6" fill="none" stroke="#000" stroke-width="42" stroke-linecap="round"/>
+      <path d="M360 465L260 576.6" fill="none" stroke="#000" stroke-width="30" stroke-linecap="round"/><path d="M640 465L740 576.6" fill="none" stroke="#000" stroke-width="42" stroke-linecap="round"/>
+      <path d="M640 465L740 576.6" fill="none" stroke="#000" stroke-width="30" stroke-linecap="round"/>
+    <ellipse data-avatar-joint="la" cx="264" cy="583.6" rx="24" ry="10" fill="#000" stroke="#000" stroke-width="12"/><ellipse data-avatar-joint="ra" cx="744" cy="583.6" rx="24" ry="10" fill="#000" stroke="#000" stroke-width="12"/>
+    <path d="M500 135.6L500 198.4" stroke="#000" stroke-width="31" stroke-linecap="round"/>
+    <path d="M420 198.4L300 148.79999999999998" fill="none" stroke="#000" stroke-width="37" stroke-linecap="round"/>
+      <path d="M420 198.4L300 148.79999999999998" fill="none" stroke="#000" stroke-width="25" stroke-linecap="round"/><path d="M580 198.4L700 148.79999999999998" fill="none" stroke="#000" stroke-width="37" stroke-linecap="round"/>
+      <path d="M580 198.4L700 148.79999999999998" fill="none" stroke="#000" stroke-width="25" stroke-linecap="round"/><path d="M300 148.79999999999998L180 80.60000000000001" fill="none" stroke="#000" stroke-width="33" stroke-linecap="round"/>
+      <path d="M300 148.79999999999998L180 80.60000000000001" fill="none" stroke="#000" stroke-width="21" stroke-linecap="round"/><path d="M700 148.79999999999998L820 80.60000000000001" fill="none" stroke="#000" stroke-width="33" stroke-linecap="round"/>
+      <path d="M700 148.79999999999998L820 80.60000000000001" fill="none" stroke="#000" stroke-width="21" stroke-linecap="round"/>
+    <path d="M420 194.4C420 176.4 483 150.6 488 142.6
+      L512 142.6C517 150.6 580 176.4 580 194.4
+      L560 375.79999999999995Q500 383.79999999999995 440 375.79999999999995Z"
+      fill="#000" stroke="#000" stroke-width="12"/>
+    
+    <ellipse data-avatar-joint="lw" cx="180" cy="82.60000000000001" rx="9" ry="12" fill="#000" stroke="#000" stroke-width="12"/><ellipse data-avatar-joint="rw" cx="820" cy="82.60000000000001" rx="9" ry="12" fill="#000" stroke="#000" stroke-width="12"/>
+    <ellipse data-avatar-head="" cx="500" cy="111.6" rx="23" ry="29" fill="#000" stroke="#000" stroke-width="12"/>
+    
+  </g></g></mask></defs>
+  <g transform="translate(31.49999999999997 19.529999999999983) scale(0.937)" opacity="0.673"><rect x="35" y="35" width="930" height="555" rx="18" fill="url(#blocks)" stroke="#b7a0ff" stroke-width="3" mask="url(#wall-hole)"/></g>
+  <ellipse cx="500" cy="589" rx="74" ry="9" fill="#080b16" opacity=".5"/>
+  <g data-avatar-space="" transform="translate(100 118) scale(0.8)"><g data-avatar="target" opacity="0.25">
+    <path d="M450 365.79999999999995L360 465" fill="none" stroke="#a4afb7" stroke-width="40" stroke-linecap="round"/>
+      <path d="M450 365.79999999999995L360 465" fill="none" stroke="#b7a0ff" stroke-width="38" stroke-linecap="round"/><path d="M550 365.79999999999995L640 465" fill="none" stroke="#a4afb7" stroke-width="40" stroke-linecap="round"/>
+      <path d="M550 365.79999999999995L640 465" fill="none" stroke="#b7a0ff" stroke-width="38" stroke-linecap="round"/><path d="M360 465L260 576.6" fill="none" stroke="#a4afb7" stroke-width="32" stroke-linecap="round"/>
+      <path d="M360 465L260 576.6" fill="none" stroke="#b7a0ff" stroke-width="30" stroke-linecap="round"/><path d="M640 465L740 576.6" fill="none" stroke="#a4afb7" stroke-width="32" stroke-linecap="round"/>
+      <path d="M640 465L740 576.6" fill="none" stroke="#b7a0ff" stroke-width="30" stroke-linecap="round"/>
+    <ellipse data-avatar-joint="la" cx="264" cy="583.6" rx="24" ry="10" fill="#b7a0ff" stroke="#a4afb7" stroke-width="2"/><ellipse data-avatar-joint="ra" cx="744" cy="583.6" rx="24" ry="10" fill="#b7a0ff" stroke="#a4afb7" stroke-width="2"/>
+    <path d="M500 135.6L500 198.4" stroke="#b7a0ff" stroke-width="21" stroke-linecap="round"/>
+    <path d="M420 198.4L300 148.79999999999998" fill="none" stroke="#a4afb7" stroke-width="27" stroke-linecap="round"/>
+      <path d="M420 198.4L300 148.79999999999998" fill="none" stroke="#b7a0ff" stroke-width="25" stroke-linecap="round"/><path d="M580 198.4L700 148.79999999999998" fill="none" stroke="#a4afb7" stroke-width="27" stroke-linecap="round"/>
+      <path d="M580 198.4L700 148.79999999999998" fill="none" stroke="#b7a0ff" stroke-width="25" stroke-linecap="round"/><path d="M300 148.79999999999998L180 80.60000000000001" fill="none" stroke="#a4afb7" stroke-width="23" stroke-linecap="round"/>
+      <path d="M300 148.79999999999998L180 80.60000000000001" fill="none" stroke="#b7a0ff" stroke-width="21" stroke-linecap="round"/><path d="M700 148.79999999999998L820 80.60000000000001" fill="none" stroke="#a4afb7" stroke-width="23" stroke-linecap="round"/>
+      <path d="M700 148.79999999999998L820 80.60000000000001" fill="none" stroke="#b7a0ff" stroke-width="21" stroke-linecap="round"/>
+    <path d="M420 194.4C420 176.4 483 150.6 488 142.6
+      L512 142.6C517 150.6 580 176.4 580 194.4
+      L560 375.79999999999995Q500 383.79999999999995 440 375.79999999999995Z"
+      fill="#b7a0ff" stroke="#a4afb7" stroke-width="2"/>
+    <path d="M425 208.4L500 363.79999999999995M450 357.79999999999995L550 357.79999999999995" fill="none" stroke="#ccd4d8" stroke-opacity=".45" stroke-width="5"/>
+    <ellipse data-avatar-joint="lw" cx="180" cy="82.60000000000001" rx="9" ry="12" fill="#d4c4ff" stroke="#a4afb7" stroke-width="2"/><ellipse data-avatar-joint="rw" cx="820" cy="82.60000000000001" rx="9" ry="12" fill="#d4c4ff" stroke="#a4afb7" stroke-width="2"/>
+    <ellipse data-avatar-head="" cx="500" cy="111.6" rx="23" ry="29" fill="#d4c4ff" stroke="#a4afb7" stroke-width="2"/>
+    <path d="M481 107.6Q500 102.6 519 107.6" fill="none" stroke="#202932" stroke-width="7" stroke-linecap="round"/>
+  </g><g data-avatar="player" opacity="1">
+    <path d="M450 365.79999999999995L360 465" fill="none" stroke="#a4afb7" stroke-width="40" stroke-linecap="round"/>
+      <path d="M450 365.79999999999995L360 465" fill="none" stroke="url(#avatar-fabric)" stroke-width="38" stroke-linecap="round"/><path d="M550 365.79999999999995L640 465" fill="none" stroke="#a4afb7" stroke-width="40" stroke-linecap="round"/>
+      <path d="M550 365.79999999999995L640 465" fill="none" stroke="url(#avatar-fabric)" stroke-width="38" stroke-linecap="round"/><path d="M360 465L260 576.6" fill="none" stroke="#a4afb7" stroke-width="32" stroke-linecap="round"/>
+      <path d="M360 465L260 576.6" fill="none" stroke="url(#avatar-fabric)" stroke-width="30" stroke-linecap="round"/><path d="M640 465L740 576.6" fill="none" stroke="#a4afb7" stroke-width="32" stroke-linecap="round"/>
+      <path d="M640 465L740 576.6" fill="none" stroke="url(#avatar-fabric)" stroke-width="30" stroke-linecap="round"/>
+    <ellipse data-avatar-joint="la" cx="264" cy="583.6" rx="24" ry="10" fill="#172026" stroke="#a4afb7" stroke-width="2"/><ellipse data-avatar-joint="ra" cx="744" cy="583.6" rx="24" ry="10" fill="#172026" stroke="#a4afb7" stroke-width="2"/>
+    <path d="M500 135.6L500 198.4" stroke="url(#avatar-fabric)" stroke-width="21" stroke-linecap="round"/>
+    <path d="M420 198.4L300 148.79999999999998" fill="none" stroke="#a4afb7" stroke-width="27" stroke-linecap="round"/>
+      <path d="M420 198.4L300 148.79999999999998" fill="none" stroke="url(#avatar-fabric)" stroke-width="25" stroke-linecap="round"/><path d="M580 198.4L700 148.79999999999998" fill="none" stroke="#a4afb7" stroke-width="27" stroke-linecap="round"/>
+      <path d="M580 198.4L700 148.79999999999998" fill="none" stroke="url(#avatar-fabric)" stroke-width="25" stroke-linecap="round"/><path d="M300 148.79999999999998L180 80.60000000000001" fill="none" stroke="#a4afb7" stroke-width="23" stroke-linecap="round"/>
+      <path d="M300 148.79999999999998L180 80.60000000000001" fill="none" stroke="url(#avatar-fabric)" stroke-width="21" stroke-linecap="round"/><path d="M700 148.79999999999998L820 80.60000000000001" fill="none" stroke="#a4afb7" stroke-width="23" stroke-linecap="round"/>
+      <path d="M700 148.79999999999998L820 80.60000000000001" fill="none" stroke="url(#avatar-fabric)" stroke-width="21" stroke-linecap="round"/>
+    <path d="M420 194.4C420 176.4 483 150.6 488 142.6
+      L512 142.6C517 150.6 580 176.4 580 194.4
+      L560 375.79999999999995Q500 383.79999999999995 440 375.79999999999995Z"
+      fill="url(#avatar-fabric)" stroke="#a4afb7" stroke-width="2"/>
+    <path d="M425 208.4L500 363.79999999999995M450 357.79999999999995L550 357.79999999999995" fill="none" stroke="#ccd4d8" stroke-opacity=".45" stroke-width="5"/>
+    <ellipse data-avatar-joint="lw" cx="180" cy="82.60000000000001" rx="9" ry="12" fill="url(#avatar-face)" stroke="#a4afb7" stroke-width="2"/><ellipse data-avatar-joint="rw" cx="820" cy="82.60000000000001" rx="9" ry="12" fill="url(#avatar-face)" stroke="#a4afb7" stroke-width="2"/>
+    <ellipse data-avatar-head="" cx="500" cy="111.6" rx="23" ry="29" fill="url(#avatar-face)" stroke="#a4afb7" stroke-width="2"/>
+    <path d="M481 107.6Q500 102.6 519 107.6" fill="none" stroke="#202932" stroke-width="7" stroke-linecap="round"/>
+  </g></g>
+  <rect x="45" y="80" width="185" height="82" rx="9" fill="#1b2235" stroke="#8270b0" stroke-opacity="0.4000"/><text x="62" y="105" fill="#b7a0ff" font-family="Space Grotesk, monospace" font-size="10" text-anchor="start" >MATCH THE SHAPE</text><text x="62" y="138" fill="#efebff" font-family="Space Grotesk, monospace" font-size="19" text-anchor="start" >Make a star</text>
+  <text x="850" y="98" fill="#b7a0ff" font-family="Space Grotesk, monospace" font-size="27" text-anchor="middle" >100%</text><text x="850" y="120" fill="#8699b4" font-family="Space Grotesk, monospace" font-size="9" text-anchor="middle" >POSE MATCH</text>
+  <rect x="805" y="138" width="95" height="5" rx="2" fill="#35415b"/><rect x="805" y="138" width="95" height="5" rx="2" fill="#b7a0ff"/>
+  <text x="500" y="565" fill="#b7a0ff" font-family="Space Grotesk, monospace" font-size="14" text-anchor="middle" >HOLD YOUR SHAPE</text></svg>
+   <path d="M48 783H952" stroke="#283448"/>
+   <text x="48" y="863" fill="#f1f5fb" font-family="Arial,sans-serif" font-size="52" font-weight="700">Human Tetris</text>
+   <text x="48" y="914" fill="#b6c3d6" font-family="Arial,sans-serif" font-size="25">Match the shape. Move your whole body.</text>
+   <text x="48" y="966" fill="#b7a0ff" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">AI AWARENESS PROJECT</text>
+  </svg>

@@ -1,0 +1,20 @@
+{
+  "tetris": {
+    "FILE": "play.html",
+    "TITLE": "Human Tetris",
+    "COLOR": "#b7a0ff",
+    "CATEGORY": "SHAPE SHIFTING / FULL-BODY PLAY",
+    "HEADLINE": "Become the <em>missing piece.</em>",
+    "DESCRIPTION": "A wall is coming. Find the shape, strike the pose, and slip right through.",
+    "NUMBER": "01",
+    "STAGEHINT": "ONE BODY. ENDLESS POSSIBILITIES.",
+    "SYMBOL": "▦",
+    "OVERLAY": "Every shape<br>starts with you.",
+    "SHORTCONTROLS": "DEMO: 1–9, 0, Z X C V B select 15 poses",
+    "MISSIONTITLE": "Find your shape.",
+    "MISSION": "Match 15 different silhouettes, once each in a random order. Keep both feet on the floor and hold each pose steady as the wall arrives.",
+    "TIP": "Small adjustments count. Watch your wrists, elbows and feet.",
+    "CAMERACONTROLS": "Copy the target silhouette with both feet on the floor. Follow raised-arm, low-V, diagonal and cross-body shapes. Keep both hands visible, including when bringing them near your chest. Left and right refer to the mirrored on-screen silhouette. Hold the match during the last moments before the wall reaches you. No jumping, single-leg balancing, spinning or floor poses are required.",
+    "DEMOCONTROLS": "Use keys 1–9 and 0 for the first ten poses, then Z, X, C, V and B for the last five. You can also select any of the 15 pose buttons below the arena."
+  }
+}

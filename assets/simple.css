@@ -1,0 +1,217 @@
+
+/* Simple play layout. Educational explanations live on index.html. */
+.site-header{min-height:60px;padding:12px 28px;justify-content:space-between}.site-header nav a{font-size:16px}.site-header nav a.active{border:0}.help-button{padding:9px 14px;min-height:42px}.help-button span{display:none}.game-intro{background:none;color:#064580;margin:0;padding:26px 0 22px}.game-intro h1{font-size:clamp(28px,3vw,42px);margin:0 0 8px;letter-spacing:-.6px}.intro-copy{color:#506479;font-size:17px;line-height:1.5}.game-intro .eyebrow,.game-index,.overlay-symbol,.game-overlay .eyebrow,.beta-label,.tiny-square,.ai-label,.mission-card,.learn-card,.game-footer{display:none}.play-layout{grid-template-columns:minmax(0,1.9fr) minmax(290px,1fr);gap:24px}.side-panel{display:block}.setup-card{padding:22px;display:block;background:white}.card-heading h2{font-size:25px}.card-copy{font-size:15px;margin:8px 0 16px}.camera-placeholder>svg{width:45px}.camera-placeholder>span{font:15px/1.6 Arial,sans-serif}.camera-placeholder{padding:12px}.camera-button{font-size:17px;margin-top:14px}.tracking-status{min-height:0;text-align:left;font-size:14px;line-height:1.55}.setup-row{margin-top:18px;font-size:16px}.privacy{font-size:13px;text-align:left;padding-top:15px}.camera-steps{margin:18px 0 0;padding-left:22px;color:#506479;font-size:15px;line-height:1.55}.camera-steps li{margin:8px 0}.optional-settings{margin-top:18px;border-top:1px solid #c6d7e9;padding-top:14px;color:#506479;font-size:14px}.optional-settings summary{cursor:pointer;color:#064580;padding:6px 0}.optional-settings .check-row{font-size:14px}.optional-settings .text-button{font-size:14px}.scoreboard{min-height:70px;padding:16px 22px}.score-values{gap:28px}.game-name{font-size:17px}.score-values strong{font-size:27px}.score-values span{font-size:10px}.game-overlay h2{font:700 clamp(26px,3vw,38px)/1.2 Arial,sans-serif;letter-spacing:-.5px}.game-overlay>p:not(.eyebrow){font-size:16px;max-width:390px;line-height:1.55;margin-bottom:20px}.primary-button{font-size:17px;font-weight:bold;min-height:48px}.overlay-note{font-size:12px}.arena-hint{display:none}.game-bottom{gap:10px}.game-bottom>span{font-size:13px;line-height:1.5;max-width:320px}.touch-controls{justify-content:flex-start;gap:8px;padding:14px}.touch-controls button{font-size:14px;min-height:44px;flex:1 1 140px}.mode-label{font-size:9px}.quiet-button{min-height:42px}.simple-note{font-size:14px;color:#506479;margin:18px 0 30px}.simple-note a{color:#064580;text-decoration:underline}html:not([data-game=laser]) .score-values>div:last-child{display:none}.game-overlay .primary-button{margin:0 auto}.play-panel:fullscreen .touch-controls button{flex:0 1 auto}@media(max-width:900px){.play-layout{grid-template-columns:1fr}.side-panel{display:block}.setup-card{max-width:none}.camera-box{max-width:500px}.game-overlay>p:not(.eyebrow){font-size:15px}.site-header nav{width:auto;order:0}.site-header{gap:14px}}@media(max-width:600px){.site-header{padding:12px 14px}.site-header nav a,.help-button{font-size:14px}.game-intro{padding:22px 0 18px}.intro-copy{font-size:16px}.game-overlay{padding:30px 12px 12px}.game-overlay h2{font-size:27px}.game-overlay>p:not(.eyebrow){font-size:13px;margin-bottom:12px;line-height:1.4;max-width:300px}.game-overlay .primary-button{font-size:14px;min-height:42px;padding:10px 14px}.overlay-note{font-size:10px}.touch-controls button{flex-basis:125px;font-size:13px}.scoreboard{padding:14px;gap:12px}.game-name{font-size:15px}.score-values{gap:18px}.score-values strong{font-size:24px}.game-bottom{padding:12px}.game-bottom>div{gap:8px}.game-bottom>span{max-width:none}.setup-card{padding:20px}.mode-label{font-size:8px}}
+
+/* Fullscreen arena with the existing camera feed in a compact inset. */
+.fullscreen-camera-toggle {
+  display: none;
+}
+.play-layout:fullscreen {
+  display: block;
+  width: 100vw;
+  height: 100dvh;
+  padding: 0;
+  background: #10151e;
+  overflow: hidden;
+}
+.play-layout:fullscreen .play-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+}
+.play-layout:fullscreen .game-stage {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
+  aspect-ratio: auto;
+}
+.play-layout:fullscreen .scoreboard,
+.play-layout:fullscreen .game-bottom,
+.play-layout:fullscreen .touch-controls,
+.play-layout:fullscreen .encounter-bar,
+.play-layout:fullscreen .ability-bar {
+  flex: 0 0 auto;
+}
+.play-layout:fullscreen .scoreboard {
+  min-height: 54px;
+  padding: 8px 16px;
+}
+.play-layout:fullscreen .game-bottom {
+  padding: 7px 12px;
+  gap: 8px;
+}
+.play-layout:fullscreen .game-bottom > span {
+  font-size: 12px;
+}
+.play-layout:fullscreen .quiet-button {
+  min-height: 36px;
+  padding: 6px 9px;
+}
+.play-layout:fullscreen .touch-controls {
+  padding: 7px 12px;
+  gap: 6px;
+}
+.play-layout:fullscreen .touch-controls button {
+  flex: 1 1 100px;
+  min-height: 36px;
+  font-size: 12px;
+}
+.play-layout:fullscreen .encounter-bar {
+  padding: 8px 14px;
+}
+.play-layout:fullscreen .ability-bar {
+  margin: 0;
+  padding: 7px 12px;
+}
+.play-layout:fullscreen .side-panel,
+.play-layout:fullscreen .setup-card {
+  display: contents;
+}
+.play-layout:fullscreen .side-panel > :not(.setup-card),
+.play-layout:fullscreen .setup-card > :not(.camera-box) {
+  display: none;
+}
+.play-layout:fullscreen .camera-box {
+  position: fixed;
+  z-index: 10;
+  left: max(12px, env(safe-area-inset-left));
+  bottom: var(--fullscreen-preview-bottom, 12px);
+  width: var(--fullscreen-preview-width, 180px);
+  max-width: none;
+  height: auto;
+  aspect-ratio: 1000 / 620;
+  margin: 0;
+  border: 2px solid #dce3eb;
+  border-radius: 10px;
+  box-shadow: 0 6px 24px #0008;
+}
+.play-layout:fullscreen .camera-placeholder {
+  padding: 5px 5px 28px;
+  gap: 2px;
+}
+.play-layout:fullscreen .camera-placeholder > svg {
+  width: 23px;
+}
+.play-layout:fullscreen .camera-placeholder > span {
+  font: 10px/1.2 Arial, sans-serif;
+}
+.play-layout:fullscreen .live-pill {
+  top: 5px;
+  left: 5px;
+  right: auto;
+  font-size: 8px;
+  padding: 2px 4px;
+}
+.play-layout:fullscreen .fullscreen-camera-toggle {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+  bottom: 5px;
+  min-height: 22px;
+  padding: 3px 6px;
+  border: 1px solid #8599b0;
+  border-radius: 4px;
+  background: #102235e8;
+  color: white;
+  font: 11px/1.2 Arial, sans-serif;
+}
+@media (max-height: 500px) {
+  .play-layout:fullscreen .ability-bar {
+    grid-template-columns: 1fr 1fr;
+  }
+  .play-layout:fullscreen .stance-bar,
+  .play-layout:fullscreen .focus-control {
+    gap: 4px;
+  }
+  .play-layout:fullscreen .stance-button {
+    min-height: 30px;
+    padding: 4px 7px;
+    font-size: 10px;
+  }
+  .play-layout:fullscreen #focus-help {
+    display: none;
+  }
+}
+
+@media (max-height: 500px) {
+  .play-layout:fullscreen .scoreboard {
+    min-height: 44px;
+    padding: 4px 12px;
+  }
+  .play-layout:fullscreen .score-values strong {
+    font-size: 18px;
+  }
+  .play-layout:fullscreen .score-values span {
+    font-size: 8px;
+  }
+  .play-layout:fullscreen .encounter-bar {
+    padding: 4px 12px;
+  }
+  .play-layout:fullscreen #chapter-label {
+    font-size: 9px;
+  }
+  .play-layout:fullscreen #encounter-title {
+    font-size: 12px;
+  }
+  .play-layout:fullscreen .game-bottom {
+    justify-content: flex-end;
+    padding: 4px 10px;
+  }
+  .play-layout:fullscreen .game-bottom > span {
+    display: none;
+  }
+  .play-layout:fullscreen .quiet-button {
+    min-height: 28px;
+    padding: 3px 7px;
+    font-size: 12px;
+  }
+  .play-layout:fullscreen .ability-bar {
+    padding: 4px 10px;
+    gap: 6px;
+  }
+  .play-layout:fullscreen .stance-bar,
+  .play-layout:fullscreen .focus-control {
+    padding: 4px;
+    gap: 2px;
+  }
+  .play-layout:fullscreen .stance-button {
+    min-height: 26px;
+    padding: 3px 6px;
+  }
+  .play-layout:fullscreen .touch-controls {
+    padding: 4px 10px;
+    gap: 4px;
+  }
+  .play-layout:fullscreen .touch-controls button {
+    flex-basis: 64px;
+    min-width: 0;
+    min-height: 28px;
+    padding: 3px 5px;
+    font-size: 10px;
+  }
+  .play-layout:fullscreen .game-overlay {
+    padding: 8px;
+  }
+  .play-layout:fullscreen .game-overlay h2 {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  .play-layout:fullscreen .game-overlay > p:not(.eyebrow) {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .play-layout:fullscreen .game-overlay .primary-button {
+    min-height: 32px;
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  .play-layout:fullscreen .overlay-note {
+    display: none;
+  }
+}
